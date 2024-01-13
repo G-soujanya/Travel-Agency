@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration</title>
+</head>
+<body>
+<form action="/opt/lampp/htdocs/php/register.php" method="GET">
+<label>username:
+<input type="text" placeholder="username" name="username"></label><br><br>
+<label>mobile number:
+<input type="tel" placeholder="9000001293" name="number"></label><br><br>
+<label>choose trip type:
+single trip<input type="radio" name="trip" value="singletrip">
+family trip<input type="radio" name="trip">
+friends trip<input type="radio" name="trip">
+</label><br><br>
+<h3>Select your package:-</h3><br>
+<b>single trip</b>
+<input type="radio" name="package">30000-40000
+<input type="radio" name="package">50000-60000
+<input type="radio" name="package">above 60000<br>
+<b>Familytrip</b> 
+
+<input type="radio" name="package">50000-60000
+<input type="radio" name="package">60000-75000
+<input type="radio" name="package">above 75000<br>
+<b>Friends trip</b>
+
+<input type="radio" name="package">35000-45000
+<input type="radio" name="package">45000-65000
+<input type="radio" name="package">above 65000
+
+
+<br><br>
+
+
+<h3>Select food items:-</h3><br>
+<b>Breakfast</b>
+<input type="checkbox" name="food[]">Idly-Sambar
+<input type="checkbox" name="food[]">Dosa
+<input type="checkbox" name="food[]">Upma
+<input type="checkbox" name="food[]">Uthappam
+<input type="checkbox" name="food[]">Poori
+<input type="checkbox" name="food[]">Pongal<br>
+
+<b>Lunch</b>
+<input type="checkbox" name="food[]">Geera rice
+<input type="checkbox" name="food[]">Rice&Dal
+<input type="checkbox" name="food[]">Raita
+<input type="checkbox" name="food[]">Curd-Rice<br>
+
+<b>Snacks</b>
+<input type="checkbox" name="food[]">Pav-bajji
+<input type="checkbox" name="food[]">Samosa
+<input type="checkbox" name="food[]">Golgappa
+<input type="checkbox" name="food[]">Gobi
+<input type="checkbox" name="food[]">Cake
+<input type="checkbox" name="food[]">Noodle<br>
+
+<b>Dinner</b>
+<input type="checkbox" name="food[]">Chapathi
+<input type="checkbox" name="food[]">Roti
+<input type="checkbox" name="food[]">Fruits
+<input type="checkbox" name="food[]">Curd-rice
+<input type="checkbox" name="food[]">Alu-chat<br><br>
+
+Enter a place in our list to visit:-<br>
+<input type="text" name="place" placeholder="Ex:-ooty"><br><br>
+Select your trip start date:-<br>
+<input type="date" name="date"><br><br>
+Enter your AdharNumber:<br>
+<input type="tel" name="adhar"><br><br>
+Comments:-<br><textarea cols="20" rows="10" name="comment">
+</textarea><br><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
